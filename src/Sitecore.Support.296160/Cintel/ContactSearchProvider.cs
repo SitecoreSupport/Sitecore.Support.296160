@@ -85,7 +85,7 @@ namespace Sitecore.Support.Cintel
         EndDateTime = parameters.ToDate,
         Limit = int.MaxValue
       };
-      var asyncQueryable = (IAsyncQueryable<Contact>) contacts.Where(x => x.InteractionsCache().InteractionCaches.Any())
+      var asyncQueryable = (IAsyncQueryable<Contact>)contacts.Where(x => x.InteractionsCache().InteractionCaches.Any(y => y.StartDateTime >= parameters.FromDate.ToUniversalTime() && y.StartDateTime <= parameters.ToDate.ToUniversalTime()))
         .OrderByDescending(c => c.EngagementMeasures().MostRecentInteractionStartDateTime);
       if (!string.IsNullOrEmpty(text) && !text.Equals("*"))
       {
