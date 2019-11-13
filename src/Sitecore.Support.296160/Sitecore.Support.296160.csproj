@@ -42,58 +42,58 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Analytics.Model, Version=11.40.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Analytics.Model.9.0.2\lib\Sitecore.Analytics.Model.dll</HintPath>
+    <Reference Include="Sitecore.Analytics.Model">
+      <HintPath>..\packages\SC.Sitecore.Analytics.Model.9.0.1\lib\Sitecore.Analytics.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.CES.DeviceDetection, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.CES.DeviceDetection.9.0.2\lib\Sitecore.CES.DeviceDetection.dll</HintPath>
+    <Reference Include="Sitecore.CES.DeviceDetection">
+      <HintPath>..\packages\SC.Sitecore.CES.DeviceDetection.9.0.1\lib\Sitecore.CES.DeviceDetection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Cintel, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Cintel.9.0.2\lib\Sitecore.Cintel.dll</HintPath>
+    <Reference Include="Sitecore.Cintel">
+      <HintPath>..\packages\SC.Sitecore.Cintel.9.0.1\lib\Sitecore.Cintel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Cintel.Client, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.Cintel.Client.9.0.2\lib\Sitecore.Cintel.Client.dll</HintPath>
+    <Reference Include="Sitecore.Cintel.Client">
+      <HintPath>..\packages\SC.Sitecore.Cintel.Client.9.0.1\lib\Sitecore.Cintel.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.ContentSearch.9.0.2\lib\Sitecore.ContentSearch.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch">
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.9.0.1\lib\Sitecore.ContentSearch.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.ContentSearch.Linq.9.0.2\lib\Sitecore.ContentSearch.Linq.dll</HintPath>
+    <Reference Include="Sitecore.ContentSearch.Linq">
+      <HintPath>..\packages\SC.Sitecore.ContentSearch.Linq.9.0.1\lib\Sitecore.ContentSearch.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.9.0.1\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XConnect, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.XConnect.9.0.2\lib\Sitecore.XConnect.dll</HintPath>
+    <Reference Include="Sitecore.XConnect">
+      <HintPath>..\packages\SC.Sitecore.XConnect.9.0.1\lib\Sitecore.XConnect.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XConnect.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.XConnect.Client.9.0.2\lib\Sitecore.XConnect.Client.dll</HintPath>
+    <Reference Include="Sitecore.XConnect.Client">
+      <HintPath>..\packages\SC.Sitecore.XConnect.Client.9.0.1\lib\Sitecore.XConnect.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XConnect.Client.Configuration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.XConnect.Client.Configuration.9.0.2\lib\Sitecore.XConnect.Client.Configuration.dll</HintPath>
+    <Reference Include="Sitecore.XConnect.Client.Configuration">
+      <HintPath>..\packages\SC.Sitecore.XConnect.Client.Configuration.9.0.1\lib\Sitecore.XConnect.Client.Configuration.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XConnect.Collection.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Sitecore.XConnect.Collection.Model.9.0.2\lib\Sitecore.XConnect.Collection.Model.dll</HintPath>
+    <Reference Include="Sitecore.XConnect.Collection.Model">
+      <HintPath>..\packages\SC.Sitecore.XConnect.Collection.Model.9.0.1\lib\Sitecore.XConnect.Collection.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Interactive.Async, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.System.Interactive.Async.9.0.2\lib\System.Interactive.Async.dll</HintPath>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>..\packages\SC.System.Interactive.Async.9.0.1\lib\System.Interactive.Async.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Interactive.Async.Providers, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.System.Interactive.Async.Providers.9.0.2\lib\System.Interactive.Async.Providers.dll</HintPath>
+    <Reference Include="System.Interactive.Async.Providers">
+      <HintPath>..\packages\SC.System.Interactive.Async.Providers.9.0.1\lib\System.Interactive.Async.Providers.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Web" />
