@@ -101,7 +101,7 @@ namespace Sitecore.Support.Cintel
         Limit = int.MaxValue
       };
 
-      var list = contacts.Where(x => x.InteractionsCache().InteractionCaches.Any())
+      var list = contacts.Where(x => x.InteractionsCache().InteractionCaches.Any(y => y.StartDateTime >= parameters.FromDate.ToUniversalTime() && y.StartDateTime <= parameters.ToDate.ToUniversalTime()))
           .OrderByDescending(c => c.EngagementMeasures().MostRecentInteractionStartDateTime);
 
       IAsyncQueryable<Contact> query = list;
